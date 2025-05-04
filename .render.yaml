@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: image-cloner-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: UPLOADIO_API_KEY
+        value: YOUR_UPLOADIO_API_KEY
+      - key: UPLOADIO_ACCOUNT_ID
+        value: YOUR_UPLOADIO_ACCOUNT_ID
+      - key: REPLICATE_API_TOKEN
+        value: YOUR_REPLICATE_API_TOKEN
