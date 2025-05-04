@@ -6,8 +6,8 @@ services:
     startCommand: gunicorn app:app
     envVars:
       - key: UPLOADIO_API_KEY
-        value: YOUR_UPLOADIO_API_KEY
+        value: public_W23MT9S845nFTBpibnT3E5xWawMU
       - key: UPLOADIO_ACCOUNT_ID
-        value: YOUR_UPLOADIO_ACCOUNT_ID
+        value: W23MT9S
       - key: REPLICATE_API_TOKEN
-        value: YOUR_REPLICATE_API_TOKEN
+        value: r8_4yHl367khHhoQtHdQoTJ4Eclg9ll7xj3jQb7f
