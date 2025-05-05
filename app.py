@@ -8,7 +8,7 @@ app = Flask(__name__)
 # 🔐 Set your actual keys here or via environment variables
 UPLOADIO_API_KEY = "secret_W23MT9SFRxVsWLhMDveTsMuysuHX"
 UPLOADIO_ACCOUNT_ID = "W23MT9S"
-REPLICATE_API_TOKEN = "public_W23MT9S845nFTBpibnT3E5xWawMU"
+REPLICATE_API_TOKEN = "r8_CCWmjkSzoTEYPyRIQbgQbKQiYK36PEO0QqSui"
 MODEL_VERSION = "cc3fdd6f084d0cbe255191bbab6d4793a1e0be1adab747d25b7e3c52b24c435b"
 
 
